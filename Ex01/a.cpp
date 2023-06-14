@@ -17,8 +17,14 @@ int random(int low, int high)
 
 int main() { 
     int a,b;
+    string name; 
     a = random(1,6);
     b = random(1,6);
+
+    cout << "What is your name? " << endl;
+    cin >> name;
+    cout << "Hello, " << name << endl;
+
     cout << "Rolling dice..." << endl;
     cout << "Die 1: " << a << endl;
     cout << "Die 2: " << b << endl;
