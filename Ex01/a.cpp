@@ -24,4 +24,9 @@ int main() {
     cout << "Die 2: " << b << endl;
     cout << "Total value: " << a+b << endl;
 
+    if(a+b > 7) {
+        cout << "You won" << endl;
+    }
+    else cout << "You lost" << endl;
+
 }
